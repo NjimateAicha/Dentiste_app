@@ -1,4 +1,4 @@
-package net.javaguides.dentiste;
+package net.javaguides.dentiste.model;
 
 
 import jakarta.persistence.*;
