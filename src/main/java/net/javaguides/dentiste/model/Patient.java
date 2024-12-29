@@ -4,7 +4,8 @@ import jakarta.persistence.*;
 
 import java.util.Date;
 @Entity
-public class PatientInformation {
+@Table(name = "patients")
+public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
